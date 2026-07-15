@@ -1,0 +1,13 @@
+--------------Consolidation------
+1:Using cosolidation,we can create derived elements only on attributes.
+2:It is more efficient since consolidation gets calculated at analytical engine.
+3:Using Consolidation,we cannot display the individual contribution.
+4:hierarchical not available in Consolidation.
+5:We can create derive new elements using existing derived elements
+
+--------------Custom Group------
+1:Using CG,we can create derived elements both on attributes & metrics.
+2:CG gets calculated at SQL engine so therefore less efficient.
+3:Using CG,we can display the individual contribution.
+4:hierarchical available in CG
+5:We cannot create derive new elements using existing derived elements
